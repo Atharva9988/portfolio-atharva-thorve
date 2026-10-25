@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://atharva9988.github.io/portfolio-atharva-thorve/sitemap.xml

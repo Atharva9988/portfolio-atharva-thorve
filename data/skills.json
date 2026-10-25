@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "skills": ["Python", "JavaScript"]
+    },
+    {
+      "name": "Frameworks",
+      "skills": ["FastAPI", "Uvicorn"]
+    },
+    {
+      "name": "Data and validation",
+      "skills": ["Pydantic", "JSON", "Cloud Firestore"]
+    },
+    {
+      "name": "AI and LLM integrations",
+      "skills": [
+        "LLM SDKs (OpenAI, Groq, Google Gemini)",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "name": "Libraries and tools",
+      "skills": ["asyncio", "httpx", "Requests", "Git"]
+    }
+  ],
+  "currently_learning": [
+    "Django",
+    "Django ORM",
+    "Django REST Framework",
+    "Docker",
+    "LangGraph",
+    "RAG (Retrieval-Augmented Generation)"
+  ]
+}

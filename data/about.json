@@ -1,0 +1,33 @@
+{
+  "name": "Atharva Thorve",
+  "role": "Backend Developer in Training",
+  "target_role": "Backend developer, focused on AI systems (RAG, LangGraph agents)",
+  "status": "open_to_internships",
+  "status_text": "Open to internships",
+  "college": "Pillai HOC College of Engineering and Technology, Rasayani",
+  "degree": "Computer Engineering (Undergraduate)",
+  "hero_tagline": "Backend developer in training, focused on AI systems",
+  "hero_statement": "I build backend services, data validation pipelines, and LLM integrations. Open to backend engineering internships.",
+  "background_lines": [
+    "I am an engineering student at Pillai HOC College of Engineering and Technology, Rasayani.",
+    "My focus is backend engineering, with emphasis on API architecture and structured data validation.",
+    "I write Python services using FastAPI, Pydantic, and modern async libraries.",
+    "I work with LLM APIs to build structured review bots and document parsing tools.",
+    "I am currently studying agent workflows with LangGraph and retrieval systems.",
+    "I am looking for backend development internship opportunities to contribute to real-world software."
+  ],
+  "contact": {
+    "github": "https://github.com/Atharva9988",
+    "linkedin": "https://www.linkedin.com/in/atharvathorve/",
+    "email": "atharvathorve2@gmail.com",
+    "resume_path": "assets/resume.pdf",
+    "has_resume": false
+  },
+  "photo": {
+    "src": "assets/atharva-profile.png",
+    "alt": "Atharva Thorve, backend developer in training",
+    "width": 320,
+    "height": 320
+  },
+  "last_updated": "2026-10-25"
+}

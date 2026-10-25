@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- ====================================================================
+       BASE URL CONFIGURATION
+       Canonical URL: https://atharva9988.github.io/portfolio-atharva-thorve/
+       All internal asset/data links use RELATIVE paths to support sub-path hosting.
+       ==================================================================== -->
+
+  <!-- Primary Meta Tags -->
+  <title>Atharva Thorve | Backend Developer | AI Systems</title>
+  <meta name="title" content="Atharva Thorve | Backend Developer | AI Systems">
+  <meta name="description" content="Portfolio of Atharva Thorve, an engineering student and backend developer focused on AI systems, FastAPI, Pydantic, and reliable Python services.">
+  <meta name="keywords" content="Atharva Thorve, Backend Developer, Python, FastAPI, Pydantic, LLM, RAG, LangGraph, Software Engineer, Portfolio">
+  <meta name="author" content="Atharva Thorve">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://atharva9988.github.io/portfolio-atharva-thorve/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://atharva9988.github.io/portfolio-atharva-thorve/">
+  <meta property="og:title" content="Atharva Thorve | Backend Developer | AI Systems">
+  <meta property="og:description" content="Backend developer in training. Focused on AI systems, API architectures, and reliable Python services.">
+  <meta property="og:image" content="https://atharva9988.github.io/portfolio-atharva-thorve/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://atharva9988.github.io/portfolio-atharva-thorve/">
+  <meta name="twitter:title" content="Atharva Thorve | Backend Developer | AI Systems">
+  <meta name="twitter:description" content="Backend developer in training. Focused on AI systems, API architectures, and reliable Python services.">
+  <meta name="twitter:image" content="https://atharva9988.github.io/portfolio-atharva-thorve/assets/og-image.png">
+
+  <!-- Structured Data: JSON-LD Person Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Atharva Thorve",
+    "url": "https://atharva9988.github.io/portfolio-atharva-thorve/",
+    "email": "atharvathorve2@gmail.com",
+    "jobTitle": "Backend Developer",
+    "worksFor": {
+      "@type": "EducationalOrganization",
+      "name": "Pillai HOC College of Engineering and Technology, Rasayani"
+    },
+    "sameAs": [
+      "https://github.com/Atharva9988",
+      "https://www.linkedin.com/in/atharvathorve/"
+    ],
+    "knowsAbout": ["Python", "FastAPI", "Pydantic", "LLM APIs", "Backend Engineering"]
+  }
+  </script>
+
+  <!-- Progressive Enhancement: Add .js class if JavaScript is active -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Google Fonts: Syne & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet (Relative Path) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Scroll Progress Indicator Bar -->
+  <div id="scrollProgressBar" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Ambient Animated Background Layer -->
+  <div class="bg-ambient-container" aria-hidden="true">
+    <div class="bg-grid-layer"></div>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+  </div>
+
+  <!-- Sticky Top Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-link" aria-label="Atharva Thorve Home">
+        <span>Atharva Thorve<span class="brand-accent">.</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-item-link">About</a></li>
+          <li><a href="#projects" class="nav-item-link">Projects</a></li>
+          <li><a href="#skills" class="nav-item-link">Skills</a></li>
+          <li><a href="#contact" class="nav-item-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle theme mode">
+          <svg class="theme-icon sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="theme-icon moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main id="main-content">
+
+    <!-- ====================================================================
+         1. Hero Section
+         ==================================================================== -->
+    <header id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-stagger stagger-1">
+            <span class="status-pill">
+              <span class="status-dot"></span>
+              Open to internships
+            </span>
+          </div>
+
+          <h1 class="hero-title hero-stagger stagger-2 name-shimmer">Atharva Thorve</h1>
+          <p class="hero-tagline hero-stagger stagger-3">
+            <span id="heroRoleText" class="role-text-swap">Backend developer in training</span>
+          </p>
+          <p class="hero-sentence hero-stagger stagger-4">
+            I build backend services, data validation pipelines, and LLM integrations. Open to backend engineering internships.
+          </p>
+
+          <div class="hero-actions hero-stagger stagger-5">
+            <a href="#projects" class="btn-primary">View projects</a>
+            <a href="#contact" class="btn-secondary">Contact me</a>
+            <a href="assets/resume.pdf" class="btn-secondary" id="heroResumeBtn" style="display: none;">Download resume</a>
+
+            <div class="hero-socials hero-stagger stagger-6">
+              <a href="https://github.com/Atharva9988" target="_blank" rel="noopener noreferrer" class="icon-btn-link" aria-label="GitHub profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/atharvathorve/" target="_blank" rel="noopener noreferrer" class="icon-btn-link" aria-label="LinkedIn profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrapper">
+          <div class="hero-photo-frame hero-photo-anim floating-photo">
+            <img 
+              src="assets/atharva-profile.png" 
+              alt="Atharva Thorve" 
+              class="hero-photo"
+              width="240"
+              height="240"
+              loading="eager"
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ====================================================================
+         2. About Section
+         ==================================================================== -->
+    <section id="about" class="section fade-in-section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="about-heading">About</h2>
+          <p class="section-subtitle">Background, focus areas, and engineering training</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-paragraphs" id="aboutParagraphsContainer">
+            <!-- Accessible semantic HTML fallback -->
+            <p class="about-text">I am an engineering student at Pillai HOC College of Engineering and Technology, Rasayani.</p>
+            <p class="about-text">My focus is backend engineering, with emphasis on API architecture and structured data validation.</p>
+            <p class="about-text">I write Python services using FastAPI, Pydantic, and modern async libraries.</p>
+            <p class="about-text">I work with LLM APIs to build structured review bots and document parsing tools.</p>
+            <p class="about-text">I am currently studying agent workflows with LangGraph and retrieval systems.</p>
+            <p class="about-text">I am looking for backend development internship opportunities to contribute to real-world software.</p>
+          </div>
+
+          <div class="about-education">
+            <svg class="education-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            <div class="education-text">
+              <strong>Education:</strong> Computer Engineering &bull; Pillai HOC College of Engineering and Technology, Rasayani
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. Projects Section
+         ==================================================================== -->
+    <section id="projects" class="section fade-in-section" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="projects-heading">Projects</h2>
+          <p class="section-subtitle">Selected software development projects with verified source code</p>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Fallback project card indexable without JS -->
+          <article class="project-card featured">
+            <div class="project-header">
+              <div class="project-title-group">
+                <h3 class="project-title">ai-code-review-bot</h3>
+                <span class="featured-badge">Featured project</span>
+              </div>
+            </div>
+            <p class="project-purpose">FastAPI backend that takes a public GitHub repo URL, fetches Python files, sends them to LLMs, and returns structured code reviews with severity, issues, improvements, and scores.</p>
+            <div class="project-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Google Gemini API</span>
+              <span class="tech-tag">Pydantic</span>
+              <span class="tech-tag">Groq</span>
+              <span class="tech-tag">Uvicorn</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Atharva9988/ai-code-review-bot" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. Skills Section
+         ==================================================================== -->
+    <section id="skills" class="section fade-in-section" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="skills-heading">Skills</h2>
+          <p class="section-subtitle">Technologies and tools verified through hands-on projects</p>
+        </div>
+
+        <div class="skills-container">
+          <div id="skillsCategoriesContainer" style="display: flex; flex-direction: column; gap: 16px;">
+            <!-- Rendered from data/skills.json -->
+          </div>
+
+          <div class="currently-learning-card">
+            <h3 class="skill-category-title">Currently learning</h3>
+            <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 12px;">Skills currently being studied without a committed public project</p>
+            <div class="skills-chips-row" id="learningChipsContainer">
+              <span class="learning-chip">Django</span>
+              <span class="learning-chip">Django ORM</span>
+              <span class="learning-chip">Django REST Framework</span>
+              <span class="learning-chip">Docker</span>
+              <span class="learning-chip">LangGraph</span>
+              <span class="learning-chip">RAG (Retrieval-Augmented Generation)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. Contact Section
+         ==================================================================== -->
+    <section id="contact" class="section fade-in-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="contact-heading">Contact</h2>
+          <p class="section-subtitle">Get in touch for internships, backend projects, or engineering discussions</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-card">
+            <p class="contact-friendly-line">
+              Interested in working together or discussing backend opportunities? Send a message using the form or reach out directly through email or LinkedIn.
+            </p>
+
+            <div class="contact-links-list">
+              <a href="mailto:atharvathorve2@gmail.com" class="contact-link-item">
+                <svg class="contact-link-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>atharvathorve2@gmail.com</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/atharvathorve/" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                <svg class="contact-link-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <span>linkedin.com/in/atharvathorve</span>
+              </a>
+
+              <a href="https://github.com/Atharva9988" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                <svg class="contact-link-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>github.com/Atharva9988</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <form class="contact-form" id="contactForm" novalidate>
+              <!-- Honeypot spam field (hidden) -->
+              <div class="honeypot-input" aria-hidden="true">
+                <label for="contactHoneypot">Leave blank</label>
+                <input type="text" id="contactHoneypot" name="company_url" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="form-group">
+                <label for="contactName" class="form-label">Name</label>
+                <input type="text" id="contactName" name="name" class="form-input" placeholder="Your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" id="contactEmail" name="email" class="form-input" placeholder="your.email@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea id="contactMessage" name="message" class="form-textarea" placeholder="Hello Atharva, I would like to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary" id="contactSubmitBtn" style="align-self: flex-start;">
+                <span class="btn-spinner" aria-hidden="true"></span>
+                <span class="btn-text">Send message</span>
+              </button>
+
+              <div id="contactStatusMessage" class="contact-status-message" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div>
+        <span>&copy; <span id="currentYear">2026</span> Atharva Thorve</span>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/Atharva9988" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/atharvathorve/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="mailto:atharvathorve2@gmail.com" class="footer-link">atharvathorve2@gmail.com</a>
+        <a href="#hero" class="footer-link">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Script (Relative Path) -->
+  <script src="js/main.js"></script>
+</body>
+</html>

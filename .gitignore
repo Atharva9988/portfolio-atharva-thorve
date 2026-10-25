@@ -1,0 +1,27 @@
+# Environment variables & secrets (never commit to git)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Local Python caches (if running local test server)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local sub-path testing junction
+portfolio-atharva-thorve
+
+.env
+node_modules/
+portfolio-atharva-thorve/
+lighthouse-report.json
+image.png

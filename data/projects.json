@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "id": "ai-code-review-bot",
+      "name": "ai-code-review-bot",
+      "featured": true,
+      "purpose": "FastAPI backend that takes a public GitHub repo URL, fetches Python files, sends them to LLMs (Google Gemini / Groq), and returns structured reviews with severity, issues, improvements, and scores.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Google Gemini API",
+        "Pydantic",
+        "Groq",
+        "Uvicorn",
+        "Requests"
+      ],
+      "repo_url": "https://github.com/Atharva9988/ai-code-review-bot",
+      "demo_url": null,
+      "example_output": "POST /review\nRequest:\n{\n  \"repo_url\": \"https://github.com/username/repository\"\n}\n\nResponse:\n{\n  \"repo\": \"https://github.com/username/repository\",\n  \"total_files_reviewed\": 3,\n  \"reviews\": [\n    {\n      \"filename\": \"main.py\",\n      \"review\": \"SEVERITY: Warning\\nISSUES:\\n- Missing error handling\\nIMPROVEMENTS:\\n- Add try/except blocks\\nSCORE: 6\\nSUMMARY: ...\"\n    }\n  ]\n}"
+    },
+    {
+      "id": "resume-screener",
+      "name": "Resume-Screener",
+      "featured": false,
+      "purpose": "Python utility that extracts candidate information from resume text into a strongly typed Pydantic schema using structured LLM parsing.",
+      "technologies": [
+        "Python",
+        "Pydantic",
+        "OpenAI SDK",
+        "OpenRouter",
+        "python-dotenv"
+      ],
+      "repo_url": "https://github.com/Atharva9988/Resume-Screener",
+      "demo_url": null,
+      "example_output": null
+    },
+    {
+      "id": "llm-chatbot",
+      "name": "LLM-Chatbot",
+      "featured": false,
+      "purpose": "Terminal command-line chatbot connecting user prompts to foundation models via OpenRouter.",
+      "technologies": [
+        "Python",
+        "OpenAI SDK",
+        "OpenRouter API",
+        "python-dotenv"
+      ],
+      "repo_url": "https://github.com/Atharva9988/LLM-Chatbot",
+      "demo_url": null,
+      "example_output": null
+    },
+    {
+      "id": "weather-app",
+      "name": "weather-app",
+      "featured": false,
+      "purpose": "Asynchronous Python CLI tool that queries OpenWeather API for current temperature and weather conditions, then saves data to JSON.",
+      "technologies": [
+        "Python 3",
+        "asyncio",
+        "httpx",
+        "OpenWeather API",
+        "python-dotenv"
+      ],
+      "repo_url": "https://github.com/Atharva9988/weather-app",
+      "demo_url": null,
+      "example_output": "City: Mumbai\nTemperature: 30°C\nDescription: Clear Sky"
+    },
+    {
+      "id": "medicine-manager",
+      "name": "medicine-manager",
+      "featured": false,
+      "purpose": "Web application for tracking daily medications, managing prescription refills, and recording dosage schedules.",
+      "technologies": [
+        "JavaScript",
+        "React 19",
+        "Firebase Auth",
+        "Cloud Firestore",
+        "Vite"
+      ],
+      "repo_url": "https://github.com/Atharva9988/medicine-manager",
+      "demo_url": null,
+      "example_output": null
+    }
+  ]
+}
